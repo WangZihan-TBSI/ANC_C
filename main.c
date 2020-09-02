@@ -8,7 +8,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sndfile.h>
-#include <Eigen/Dense>
+#include <gsl/gsl_matrix.h>
+#include <gsl/gsl_linalg.h>
+#include <gsl/gsl_blas.h>
 
 int main()
 {

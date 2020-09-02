@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Documents/Learning/研一课程/RIOS_Capstone/ANC_C/main.c
+stdio.h
+-
+stdlib.h
+-
+sndfile.h
+-
+cmath
+-
+Eigen/Dense
+-
+
+/usr/local/Cellar/libsndfile/1.0.29pre2_1/include/sndfile.h
+stdio.h
+-
+stdint.h
+-
+sys/types.h
+-
+
